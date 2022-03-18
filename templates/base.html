@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <!-- for mobile-friendly pages -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Eden and Grace" content="">
+    <title>{{ page_title }}</title>
+    <link rel='stylesheet' href="{{url_for('static', filename = 'style.css')}}">
+</head>
+
+
+<body>
+    {% block header %}
+    <h1>Eden Liu</h1>
+    {% endblock %}
+    
+    <main>
+    
+    {% block main_content %}
+    <!-- Insert content -->
+    {% endblock %}
+    
+    </main>
+    
+    
+</body>
+</html>
+    
