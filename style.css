@@ -1,10 +1,24 @@
 /* the --color-header and others are CSS variables, which we access later. 
 */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
 HTML {
     font-family: Gill Sans
 }
-
+.header {
+    width: 100%;
+    height: 100vh;
+    background:rgb(199, 225, 255);
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+}
 h1 {
     font-style: italic;
     text-align: center;
@@ -13,3 +27,4 @@ h1 {
     border: 1px dashed rgb(0, 0, 0);
     background-color: rgb(199, 225, 255);
 }
+
