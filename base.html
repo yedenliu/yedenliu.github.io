@@ -4,8 +4,8 @@
     <meta charset='utf-8'>
     <!-- for mobile-friendly pages -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Eden and Grace" content="">
-    <title>Eden's Website</title>
+    <meta name="Eden Liu" content="">
+    <title>{{ page_title }}</title>
     <style>
         HTML {
             font-family: Gill Sans
@@ -26,7 +26,10 @@
     {% endblock %}
     
     </main>
-    
+
+{% block end_scripts %}
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+{% endblock %}    
     
 </body>
 </html>
