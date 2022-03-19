@@ -1,0 +1,15 @@
+/* the --color-header and others are CSS variables, which we access later. 
+*/
+
+HTML {
+    font-family: Gill Sans
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    color: rgb(28, 61, 122);
+    padding: 10px;
+    border: 1px dashed rgb(0, 0, 0);
+    background-color: rgb(199, 225, 255);
+}
